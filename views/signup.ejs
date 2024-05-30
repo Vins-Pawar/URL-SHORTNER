@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign Up</title>
+
+    <style>
+        body {
+            font-family: Tahoma, Geneva, Verdana, sans-serif;
+        
+            height: 100vh;
+            width: 100%;
+        }
+        .signup-form{
+            font-size: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        button{
+            background-color: rgba(46, 46, 235, 0.599);
+            padding: 5px 10px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="signup-form">
+        <h1>Sing up</h1>
+
+        <form action="user" method="post">
+            <label>Name:</label>
+            <input type="text" name="name">
+            <br>
+            <label>Email:</label>
+            <input type="email" name="email">
+            <br>
+            <label>Password:</label>
+            <input type="password" name="password">
+            <br>
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
